@@ -26,14 +26,6 @@
 * Forms:
 - Sign in form,
 - Creation product form,
-* No UI/UX given, free to create our very own design
+* No UI/UX given, free to create our very own design.
 
-# Bonuses I added :
-
-- Deleting product button,
-- Editing product button.
-
-
-Bonjour chers habitants de la planète Linkedin. J'ose croire que mon POST vous trouve en pleine forme ce matin!
-Alors, je tiens à partager avec vous les screenshots et le repos github d'un mini projet auquel nous avons été soumis au campus @EnergyGenetion Lomé, ceci dans le cadre du projet @DCLIC "formez vous au numérique" de @OIFrancophonie.
-Ce projet portait sur le #CRUD user, products et category, #e-commerce. Un projet que je trouve d'envergure. Savourez! Sur ce passez une excellente semaine!
+* Screenshots on image folder

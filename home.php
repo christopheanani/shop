@@ -63,8 +63,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['email'])) {
                     <tr>
                          <th>ID</th>
                          <th>NAME</th>
-                         <th>DESCRIPTION</th>
                          <th>MASS</th>
+                         <th>DESCRIPTION</th>
                          <th>PRICE</th>
                          <th>STOCK</th>
                          <th>CATEGORIE</th>
