@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --primary-second: #007bff;
+  --primary: #ea40a4;
+  --business: #3a82ee;
+  --success: #198754;
+  --success-second: #4caf50;
+  --personal: var(--primary);
+  --light: #eee;
+  --grey: #888;
+  --dark: #313154;
+  --danger: #ff5b57;
+
+  --gradient-color: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+
+  --shadow: -1px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-hover: -1px -2px 72px -5px rgba(0, 0, 0, 0.2);
+
+  --business-glow: 0px 0px 4px rgba(58, 130, 238, 0.75);
+  --personal-glow: 0px 0px 4px rgba(234, 64, 164, 0.75);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #cccccc
+}
+
+.content {
+  width: 893px;
+  height: 450px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message{
+  text-align: center;
+}
+.line{
+  padding: 0.15rem;
+  background: var(--primary-second);
+  width: 80px;
+}
+
+h2{
+  color: var(--primary-second);
+  font-weight: bold;
+}
+.container .content .image-content{
+  background: url(./image/istockphoto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: #cccccc;
+  width: 440px;
+  height: 398px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+form {
+  background: #f7f7f7;
+  padding: 15px;
+  width: 450px;
+  height: 398px;
+  border-radius: 0px 5px 5px 0px;
+}
+.input-wraper {
+  display: flex;
+}
+.lgroup{
+  margin-right: 2rem;
+}
+input{
+  border: 1px solid #ccc;
+  height: 35px;
+  width: 12rem;
+}
+
+input:focus {
+  border-color: #6e8095;
+  outline: none;
+}
+
+.dgroup input{
+    width: 415px;
+}
+label{
+  font-size: 0.95em;
+}
+textarea {
+  width: 415px;
+  height: 80px;
+}
+.action-btn{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+button{
+  border: none;
+  border-radius: 5px;
+  width: 90px;
+  padding: 0.2rem;
+  font-weight: 500px;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+button:hover{
+  opacity: 0.7;
+}
+button[type="reset"]{
+  background: var(--danger);
+}
+button[type="submit"]{
+  background: var(--primary-second);
+}
